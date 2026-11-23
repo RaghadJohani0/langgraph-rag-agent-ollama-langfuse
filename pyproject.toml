@@ -1,0 +1,15 @@
+[project]
+name = "private-docs-rag-agent"
+version = "0.1.0"
+description = "Private document Q&A assistant running fully on local LLMs"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Raghad Johani" }]
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
