@@ -1,6 +1,8 @@
-# private-docs-rag-agent
+# langgraph-rag-agent-ollama-langfuse
 
-A private document Q&A assistant that runs entirely on local LLMs. Your documents never leave your machine, and every answer will cite its source.
+A private document Q&A agent that runs entirely on local LLMs (Ollama / vLLM). Your documents never leave your machine, and every answer will cite its source.
+
+**Stack:** Python · Ollama / vLLM · RAG (Qdrant) · LangGraph · Pydantic · Ragas · Langfuse · FastAPI · Docker · GitHub Actions
 
 > Status: **Phase 1 – local model client.** Built step by step; see the roadmap below.
 

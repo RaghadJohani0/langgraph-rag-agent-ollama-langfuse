@@ -1,5 +1,5 @@
 [project]
-name = "private-docs-rag-agent"
+name = "langgraph-rag-agent-ollama-langfuse"
 version = "0.1.0"
 description = "Private document Q&A assistant running fully on local LLMs"
 requires-python = ">=3.11"
